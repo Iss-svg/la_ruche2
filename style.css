@@ -21,7 +21,11 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
-
+.engwidt{
+    width: 100%;
+    font-size: 32px;
+    color: #593E26;
+}
 .container{
     /*background-color:red;*/
     max-width: 1000px;
@@ -88,6 +92,49 @@ h1 {
 }
 
 /*section engagement*/
+.gage{
+    height: 60vh;
+}
 .engagement p{
-    width: 50%;
+    width: 46%;
+    margin-top: 15px;
+
+}
+
+.sectH2{
+    padding: 25px 15px;
+}
+
+/*section Bienfaits*/
+
+.pol{
+   width: 26%;
+}
+
+.ftr{
+    margin-bottom: 15px;
+}
+
+
+
+/*section produit*/
+
+.lacarte {
+    width: 240px;
+    padding: 8px;
+    background-color: #f3c827;
+  }
+.lac{
+    width: 100%;
+}
+
+/*section client*/
+
+.clientBox{
+    width: 260px;
+
+}
+
+.ftrC{
+    margin-bottom: 25px;
 }
