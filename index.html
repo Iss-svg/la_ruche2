@@ -15,16 +15,16 @@
         <nav class="navHeader">
             <ul class="flex spacebetwen bold">
                 <li>
-                    <a href="">Nos produits</a>
+                    <a href="#pr">Nos produits</a>
                 </li>
                 <li>
-                    <a href="">Notre savoir faire</a>
+                    <a href="#bf">Bien faits du miel</a>
                 </li>
                 <li>
-                    <a href="">Notre histoire</a>
+                    <a href="#eng">Nos engagements</a>
                 </li>
                 <li>
-                    <a href="">Nous contacter</a>
+                    <a href="#tr">Nous contacter</a>
                 </li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
     <!--section des engagements-->
     <section class=" flex engagement alignCenter gagement gage ">
         <div class="flex spacebetwen container">
-            <h3 class="engwidt bold">Engagement</h3>
+            <h3 id="eng" class="engwidt bold">Engagement</h3>
             <p>Au cœur d'une vocation dédiée à la préservation de l'équilibre naturel, notre apiculteur incarne une
                 passion
                 inébranlable pour l'art ancien de l'apiculture. Imprégné de traditions transmises de génération en
@@ -67,7 +67,7 @@
     </section>
     <section class="flex bgyelleow alignCenter bienfait gage">
         <div class="flex container spacebetwen">
-            <h3 class="engwidt ftr">Bien faits du miel</h3>
+            <h3 id="bf" class="engwidt ftr">Bien faits du miel</h3>
             <div class="pol">
                 <h4>Antioxydants naturels</h4>
                 <p>Le miel est riche en antioxydants, tels que les flavonoïdes, qui aident à neutraliser les
@@ -99,63 +99,88 @@
     <!--section produit-->
     <section class="flex spacebetwen alignCenter hero">
         <div class="flex spacebetwen container">
-            <h3 class="engwidt ftr">Produit</h3>
+
+            <h3 id="pr" class="engwidt ftr">Produit</h3>
             <div class="lacarte">
                 <img src="assets/produit1.png" alt="" class="lac">
-                <h4>Miel de chatainger</h4>
-                <p>Le Miel de châtaignier tonifiant, connaît un regain de popularité avec son goût …</p>
-                <a href="" class="btn">
+                <div class="parMar">
+                    <h4>Miel de chatainger</h4>
+                    <p>Le Miel de châtaignier tonifiant, connaît un regain de popularité avec son goût …</p>
+                     <a href="" class="btn">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
                 </a>
+                </div>
+               
             </div>
             <div class="lacarte">
                 <img src="assets/produit2.png" alt="" class="lac">
-                <h4>Pain au miel</h4>
-                <p>Le pain au miel est une recette au goût inégalé, fort d’un ancien savoir faire…</p>
+                <div class="parMar">
+                    <h4>Pain au miel</h4>
+                    <p>Le pain au miel est une recette au goût inégalé, fort d’un ancien savoir faire…</p>
                 <a href="" class="btn">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
-                </a>
+                </a>    
+                </div>
+                
             </div>
             <div class="lacarte">
                 <img src="assets/produit3.png" alt="" class="lac">
-                <h4>Figues confites</h4>
-                <p>La figue se marie à merveille à la douceur du miel pour faire revenir vos plates…</p>
-                <a href="" class="btn">
+                <div class="parMar">
+                    <h4>Figues confites</h4>
+                    <p>La figue se marie à merveille à la douceur du miel pour faire revenir vos plates…</p> 
+                    <a href="" class="btn">
                     <img src="./assets/panier-blanc.png" alt="">
                     Ajouter au panier
                 </a>
+                </div>
+               
             </div>
         </div>
     </section>
 
     <!--section client-->
-    <section class="flex spacebetwen alignCenter hero bgyelleow">
+    <section class="flex  hero bgyelleow">
         <div class="flex alignCenter spacebetwen  container">
-            <h3 class="engwidt ftrC" >Nos Client</h3>
+            <h3 class="engwidt ftrC">Nos Client</h3>
             <div class="clientBox">
-                <img src="./assets/isabelle.png" alt="">
-                <p>Isabelle B</p>
-                <div> ★★★★☆</div>
-                <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                <div class="flex spacebetwen alit ftr">
+                    <img src="./assets/isabelle.png" alt="" class="withclient">
+                    <div class="withimg">
+                        <p>Isabelle B</p>
+                        <div> ★★★★☆</div>
+                    </div>
+                </div>
+                <p class="interItal">La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle
+                    vraiment le
                     savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise
                 </p>
             </div>
             <div class="clientBox">
-                <img src="./assets/jean-luc.png" alt="">
-                <p>Jean Luc D.</p>
-                <div> ★★★★☆</div>
-                <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                <div class="flex spacebetwen alit ftr">
+                    <img src="./assets/jean-luc.png" alt="" class="withclient">
+                    <div class="withimg">
+                        <p>Jean Luc D.</p>
+                        <div> ★★★★☆</div>
+                    </div>
+                </div>
+                <p class="interItal">La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle
+                    vraiment le
                     savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette
                     entreprise.
                 </p>
             </div>
             <div class="clientBox">
-                <img src="./assets/marie.png" alt="">
-                <p>Marie G.</p>
-                <div> ★★★★★</div>
-                <p>La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle vraiment le
+                <div class="flex spacebetwen alit ftr">
+                    <img src="./assets/marie.png" alt="" class="withclient">
+                    <div class="withimg alit ">
+                        <p>Marie G.</p>
+                        <div> ★★★★★</div>
+                    </div>
+                </div>
+                <p class="interItal">La Ruche offre un miel de très bonne qualité, avec un goût authentique qui rappelle
+                    vraiment le
                     savoir-faire artisanal. Les emballages sont soignés, et j'apprécie le côté local de cette entreprise
                 </p>
             </div>
@@ -164,59 +189,64 @@
 
 
     <!--section nous trouver-->
-    <section>
-        <h3 class="engwidt ftrC" >Nous trouver</h3>
-        <!-- carte -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <address>
-            <p>La ruche</p>
-            <p>15 rue Jean-Pierre Blachier</p>
-            <p>42520 Maclas</p>
-        </address>
+    <section class="container alignCenter sectH2">
+        <div>
+            <h3 class="engwidt ftrC">Nous trouver</h3>
+            <!-- carte -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="ifwith"></iframe>
+            <address>
+                <p class="interN">La ruche, Apiculteur</p>
+                <p>15 rue Jean-Pierre Blachier</p>
+                <p>42520 Maclas</p>
+            </address>
+        </div>
     </section>
 
     <!--footer-->
-    <footer>
-        <div>
-            <h3>Contactez nous</h3>
-            <a href="tel:+"></a>
-            <a href="mailto:"></a>
-            <p>Du lundi au vendredi
-                <br>
-                8h → 12h | 14h → 18h
-            </p>
-            <p>Samedi
-                <br>
-                8h → 12h
-            </p>
-        </div>
-        <div>
-            <h3>Réseaux</h3>
-            <a href="">
-                <img src="./assets/fb.png" alt="">
-            </a>
-            <a href="">
-                <img src="./assets/insta.png" alt="">
-            </a>
-        </div>
-        <div>
-            <h3>Information</h3>
-            <ul>
-                <li>
-                    <a href="">→ Plan du site</a>
-                </li>
-                <li>
-                    <a href="">→ Condition générale de vente</a>
-                </li>
-                <li>
-                    <a href="">→ Information légales</a>
-                </li>
-            </ul>
-        </div>
+    <footer class="bgyelleow sectH2 ">
+        <section class="flex container spacebetwen alignCenter ">
+            <div class="lipm spacebetwen">
+                <h3 id="tr">Contactez nous</h3>
+                <a href="" class="bolk"><img src="" alt=""><i class="fa-solid fa-square-phone lipm"></i> 04.68.20.53.34</a>
+                <a href="" class="bolk"><img src="" alt=""><i class="fa-solid fa-envelope lipm"></i> laruche@orange.fr</a>
+                <p class="lipm"> <span class="bold">Du lundi au vendredi</span>
+                    <br>
+                    8h → 12h | 14h → 18h
+                </p>
+                <p class="lipm"><span class="bold">Samedi</span>
+                    <br>
+                    8h → 12h
+                </p>
+            </div>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-square-facebook bold"></i>
+                </a>
+                <a href="https://www.facebook.com/?locale=fr_FR">
+                    <i class="fa-brands fa-instagram bold"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Information</h3>
+                <ul>
+                    <li>
+                        <a href="">→ Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="">→ Condition générale de vente</a>
+                    </li>
+                    <li>
+                        <a href="">→ Information légales</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
+
 </body>
 
 </html>

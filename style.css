@@ -27,7 +27,7 @@ li {
     color: #593E26;
 }
 .container{
-    /*background-color:red;*/
+  /*background-color:red;*/
     max-width: 1000px;
     width: 100%;
     margin: auto;
@@ -48,6 +48,10 @@ li {
 
 .bgyelleow{
     background-color: #f3c827;
+}
+
+.alit{
+    align-items: center;
 }
 
 
@@ -71,7 +75,7 @@ header {
 
 .panier{
     color: #f3c827;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
@@ -119,9 +123,11 @@ h1 {
 
 /*section produit*/
 
+.parMar{
+    padding: 10px;
+}
 .lacarte {
-    width: 240px;
-    padding: 8px;
+    width: 270px;
     background-color: #f3c827;
   }
 .lac{
@@ -137,4 +143,46 @@ h1 {
 
 .ftrC{
     margin-bottom: 25px;
+}
+.withclient{
+    width: 25%;
+}
+.withimg{
+    width: 70%;
+}
+
+.interItal{
+    font-weight:400;
+    font-style: italic;
+}
+
+
+/*section nous trouver*/
+
+.ifwith{
+    width:100%;
+
+}
+.interN{
+    font-weight:600;
+    margin-bottom: 10px;
+}
+
+/*footer section*/
+
+.lipm{
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+.limp{
+    margin-top: 5px;
+}
+
+.bolk{
+    display: block;
+}
+
+html{
+    scroll-behavior: smooth;
 }
